@@ -39,24 +39,24 @@ This project uses a **YOLOv8 object detection model** integrated with a **Flask 
 
 
    Download the model separately and place it inside the models/ folder.
-Example:
 
-  models/
-    └── yolov8s.pt
+Example: from roboflow download pretrained yolo model
+
+    models/
+     └── yolov8s.pt
 
 
-(Provide your model download link here – Google Drive / HuggingFace / Roboflow etc.)
 
 ▶️ Running the Project
 
 Start the Flask server:
 
-python app.py
+     python app.py
 
 
 Open the browser and visit:
 
-http://127.0.0.1:5000
+      http://127.0.0.1:5000
 
 📸 Snapshots
 
